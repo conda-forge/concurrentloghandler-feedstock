@@ -1,11 +1,11 @@
-About concurrentloghandler
-==========================
+About concurrentloghandler-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/concurrentloghandler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://launchpad.net/python-concurrent-log-handler
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/concurrentloghandler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Concurrent logging handler (drop-in replacement for RotatingFileHandler) Python 2.6+
 
