@@ -12,14 +12,14 @@ source:
   sha256: {{ sha256sum }}
 
 build:
-  number: 1002
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  number: 1003
+  script: {{ PYTHON }} -m pip install -vvv .
 
 requirements:
   host:
     - python
-    - setuptools
-
+    - pip
+    - setuptools <58
   run:
     - python
     - pywin32  # [win]
